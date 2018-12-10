@@ -1,0 +1,19 @@
+
+
+	(\ 
+	\'\ 
+	 \'\     __________  
+	 / '|   ()_________)
+	 \ '/    \  ~ ~~~ ~ \
+	   \       \   v.0.1  \
+	   ==).      \__________\
+	  (__)       ()__________)
+	  
+
+######################## STORY CARDS v.0.1 ###############################
+
+Used to create some characters and a story spark!
+
+>>> Original Content by Jessica Abel & Matt Madden (www.dw-wp.com) 
+>>> Initial Code by Peter J. Haas (www.peerjhaas.com)
+

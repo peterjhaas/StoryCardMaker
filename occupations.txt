@@ -1,0 +1,62 @@
+artist
+gardener
+building superintendent
+tugboat captain
+spy
+scientist
+secretary
+union organizer
+toll both operator
+construction worker
+architect
+tailor
+mortician
+actor
+hippy
+hair dresser
+chef
+police officer
+accountant
+pharmacist
+parent
+priest
+mafia boss
+marketer
+prime minister
+mime
+bum 
+time travler
+magician
+fast-food restaurant worker
+mathematician
+exterminator
+bookstore employee
+fashion designer
+soldier
+businessperson 
+teacher
+newspaper publisher
+taxi driver
+used car dealer
+fishmonger
+opera singer
+wrestler
+brewer
+cowboy/-girl
+salesperson
+street vendor
+flamenco dancer
+student
+candy manufacturer
+lawyer
+philosopher
+bus driver
+doctor
+clown
+farmer
+writer
+punk
+jazz trumpeter
+orchestra conductor
+space monster
+ 
