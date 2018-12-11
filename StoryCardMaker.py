@@ -4,7 +4,6 @@
 #	>  if you want to add new bits, just expand the text files included
 #	>  I created this program because it's not always easy to cary the Story Card index cards around.  Inspired by Jessica Abel and Sarah Von Bargen's discussion of creative habits, and the idea of needing "a bookmark habit".  So while i prefer to mostly work on paper, it's nice to have this option on the road!
 #
-# 	> !!! MAKE SURE THAT YOU HAVE A FOLDER CALLED 'SESSIONS' IN THE SAME DIRECTORY AS THE STORYCARD.PY FILE SO THE APPLICATION CAN EXPORT THE RESULTS CORRECTLY. 
 # 	> I'm sure people can make this application slicker and less complicated.
 #
 #	
@@ -74,12 +73,19 @@ def func_characternumber():																		######
 	return y																					# and send back the number of characters	
 
 
+def main():
+	# checks to see if sessions directory exists in current directory, if not -- create one
+	# uses os instead of pathlib for python 2 compatibility
+	try: 
+		os.makedirs('./sessions')
+	except OSError:
+		if not os.path.isdir('./sessions'):
+			raise
 
-						######### The Program Begins			
-func_disptext('opening')	#
-y = func_characternumber()		#
-func_makethelist()			#
-							
+	func_disptext('opening')	
+	y = func_characternumber()		
+	func_makethelist()	
 
 
-
+if __name__ == '__main__':
+	main()
